@@ -3,6 +3,15 @@ import statistics
 
 
 def calculate_pixel_brightness(x, y, z):
+    """
+    Calculates the brightness of a pixel from its r,g,b values.
+
+    :param x: (int) the red value of the pixel.
+    :param y: (int) the green value of the pixel.
+    :param z: (int) the blue value of the pixel.
+    :return: the brightness of a pixel.
+
+    """
     return statistics.mean([x, y, z])
 
 
