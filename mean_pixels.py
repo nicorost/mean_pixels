@@ -9,8 +9,8 @@ green_value2 = 100
 blue_value = 0
 blue_value2 = 0
 
-ReadinessValue = 0
-ReadinessValue2 = 200
+readiness_value = 0
+readiness_value2 = 200
 
 pixel_brightness = (red_value + green_value + blue_value) / 3
 pixel_brightness2 = (red_value2 + green_value2 + blue_value2) / 3
