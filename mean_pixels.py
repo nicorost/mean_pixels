@@ -13,5 +13,5 @@ pixels = [
 ]
 
 pixel_brightness = [calculate_pixel_brightness(pixel['red'], pixel['green'], pixel['blue']) for pixel in pixels]
-pixel_brightness3 = statistics.mean(pixel_brightness)
-print(pixel_brightness3)
+mean_brightness = statistics.mean(pixel_brightness)
+print(mean_brightness)
